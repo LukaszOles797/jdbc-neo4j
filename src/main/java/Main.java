@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws SQLException {
         String url = "jdbc:neo4j:bolt://localhost:7687";
-        try (Connection con = DriverManager.getConnection(url, "neo4j", "Flight16")) {
+        try (Connection con = DriverManager.getConnection(url, "neo4j", "XXXXX")) {
 
             // cwiczenie 1
             // Serwer zainstalowano lokalnie, uzyto Neo4j Community Edition.
